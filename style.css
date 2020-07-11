@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:  100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+
+}
+
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.location p{
+    margin: 50px;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+
+}
+
+.temperature{
+    /* display: flex; */
+    flex-direction: column;
+}
+.location-timezone{
+    
+
+
+}
